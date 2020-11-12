@@ -70,7 +70,7 @@ const Rating = ({ noOfReviews, rating, color }) => {
 };
 
 Rating.propTypes = {
-  color: '#f8e825',
+  color: '#78c2ad',
 };
 
 Rating.propTypes = {
