@@ -1,0 +1,31 @@
+{
+  "name": "the-store",
+  "version": "1.0.0",
+  "description": "The Store Shopping App",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "react-bootstrap": "^1.4.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moizsiraj/The-Store.git"
+  },
+  "author": "moiz siraj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moizsiraj/The-Store/issues"
+  },
+  "homepage": "https://github.com/moizsiraj/The-Store#readme"
+}
